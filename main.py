@@ -10,7 +10,7 @@ servo = Servo(17, pin_factory=PiGPIOFactory())
 def main():
     while True:
         servo.value = 0.5
-        sleep(0.1)
+        sleep(0.5)
         servo.value = -0.5
         sleep(0.5)
 
