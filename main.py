@@ -11,6 +11,10 @@ def main():
     while True:
         servo.value = 1.0
         sleep(0.5)
+        servo.value = 0.5
+        sleep(0.5)
+        servo.value = -0.5
+        sleep(0.5)
         servo.value = -1.0
         sleep(0.5)
 
