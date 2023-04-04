@@ -1,10 +1,10 @@
 from time import sleep
 
 from gpiozero import Servo
-from gpiozero.pins.pigpio import PiGPIOFactory
+#from gpiozero.pins.pigpio import PiGPIOFactory
 
-servo = Servo(17, pin_factory=PiGPIOFactory())
-
+#servo = Servo(17, pin_factory=PiGPIOFactory())
+servo = Servo(17)
 
 
 def main():
